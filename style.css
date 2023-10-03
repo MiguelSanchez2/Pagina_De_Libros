@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 186, 135);
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.borde{
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 10px 5px 15px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.orden{
+    display: flex;
+    justify-content: center;
+
+}
+.orden2{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+li{
+    margin-left: 50px;
+    list-style: none;
+}
+ul{
+    margin-left: 200px;
+    list-style: none;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    text-align: center;
+    margin-right: 90px;
+
+
+}
+.imagen  img{
+
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 170px;
+    margin-left: 500px;
+    animation-name: animacion;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+    
+}
+@keyframes animacion {
+    0%{
+        transform: perspective(200px);
+        
+
+    }
+    50%{ transform: translateZ(100PX); 
+        transform: rotateZ(200px); 
+    }
+    100%{
+        transform: translateZ(34px);
+     
+    }
+}
+.imagen2 img{
+margin-top: 30px;
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+    animation-name: animacion;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    
+}
+.texto{
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.img_precio img{
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;  
+    text-align: end;
+    border-radius: 20px;
+    
+}
+.fotos p{
+    text-align: center;
+
+}
